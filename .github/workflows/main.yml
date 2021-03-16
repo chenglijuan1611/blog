@@ -40,6 +40,11 @@ jobs:
           npx hexo clean
           npx hexo g
           
+      - name: CANME
+        run: |
+          echo www.xn--kcrx7qoz1a.xyz > CNAME
+
+          
       - name: Commit files
         run: |
           git config --local user.email "1570044080@qq.com"
