@@ -44,6 +44,6 @@ jobs:
         run: |
           git config --local user.email "1570044080@qq.com"
           git config --local user.name "action bot"
-          git add *
+          git add --all
           git commit -m "action bot"
           git push  --force
