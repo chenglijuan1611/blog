@@ -42,7 +42,7 @@ jobs:
           
       - name: CANME
         run: |
-          echo www.xn--kcrx7qoz1a.xyz > CNAME
+          echo www.xn--kcrx7qoz1a.xyz > docs/CNAME
 
           
       - name: Commit files
